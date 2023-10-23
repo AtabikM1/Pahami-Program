@@ -2,6 +2,7 @@ public class ifelseifstatement {
 
     public static void main(String [] args){
         int a = 23;
+        a = 5;
         System.out.println("start program");
 
         if (a == 5){

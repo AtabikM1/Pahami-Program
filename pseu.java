@@ -1,8 +1,8 @@
 public class pseu {
-    public static void main(String []arga){
+    public static void main(String []arg){
         int angka;
-        angka = 2;
-        for(angka = 2; angka <30;){
+        
+        for(angka = 2; angka <53;){
             System.out.println(angka);
             angka += 5;
         }

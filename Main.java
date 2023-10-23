@@ -13,7 +13,7 @@ public class Main {
 
         // membuat variable byte
         byte b = 10;
-        System.out.println("===BYTES===");
+        System.out.prints("===BYTES===");
         System.out.println("nilai a =" + b);
         System.out.println("nilai max = " + Byte.MAX_VALUE);
         System.out.println("nilai min = " + Byte.MIN_VALUE);

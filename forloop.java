@@ -7,7 +7,14 @@ public class forloop {
 
         System.out.println("first loop");
 
-        for(int a = 0 ; a <= 10 ; a++){
+        for(int a = 0 ; a <10 ; a--){
+            if (a%2 == 0){
+                continue;
+            }else if (a%3==0){
+                break;
+            }else{
+                System.out.println(a+ " ");
+            }
             System.out.println("for loop = "+ a);
         }
         System.out.println("done");

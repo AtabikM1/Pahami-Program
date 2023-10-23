@@ -15,8 +15,9 @@ public class whileteststudy {
             gender = sc.next();
             if (gender.equalsIgnoreCase("f")){
                 System.out.println(nama + " bergender perempuan");
+                ++jumlahmhs;
             }
-            ++jumlahmhs;
+            
 
         }while (++jumlahmhs <= 30);
     }   
